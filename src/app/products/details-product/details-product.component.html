@@ -1,0 +1,13 @@
+<div>
+    <h1>detail del producto</h1>
+    <hr />
+    <div class="card mt-3 p-3">
+        <h2>
+            {{product.name}}
+        </h2>
+        <div>Categoria: {{product.category}}</div>
+        <div>Descripcion: {{product.description}}</div>
+        <div>Precio: {{product.price}}</div>
+    </div>
+    <button (click)="onGoBack()" class="mt-3 btn btn-primary">Volver</button>
+</div>
